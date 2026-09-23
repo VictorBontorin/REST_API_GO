@@ -1,0 +1,14 @@
+root = "."
+tmp_dir = "bin"
+
+[build]
+cmd = "go build -o ./bin/main.exe ./cmd/api"
+bin = "bin/main.exe"
+include_ext = ["go"]
+exclude_dir = ["bin", "scripts", "docs", "assets", "web", "vendor", "testdata"]
+
+[log]
+time = true
+
+[misc]
+clean_on_exit = true
