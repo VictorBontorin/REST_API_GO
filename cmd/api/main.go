@@ -3,7 +3,6 @@ package main
 import (
 	"log"
 	"social/internal/env"
-	"math"
 )
 
 func main() {
